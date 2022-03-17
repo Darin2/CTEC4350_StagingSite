@@ -12,6 +12,16 @@ h4{
   text-decoration:underline;
   }
 
+/* team member section start */
 .headshot{
-  width:12%;
+  width: 200px;
+  height: 200px;
 }
+
+.card-body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+/* end of team member section */
