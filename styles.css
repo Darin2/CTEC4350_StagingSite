@@ -68,3 +68,10 @@ table.greyGridTable tfoot td {
   column-gap: 20px;
 }
 /* end of team member section */
+
+/* Timesheet start */
+iframe {
+  width: 100%;
+  height: 100%;
+}
+/* End of timesheet */
