@@ -23,5 +23,6 @@ h4{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
+  column-gap: 20px;
 }
 /* end of team member section */
