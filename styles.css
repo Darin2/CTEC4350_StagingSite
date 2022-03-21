@@ -55,6 +55,13 @@ table.greyGridTable tfoot td {
 }
 /*end of project log */
 
+/* project assets start */
+.sitemapImg{
+  width:100%;
+}
+/* end of project assets section */
+
+
 /* team member section start */
 .headshot{
   width: 200px;
