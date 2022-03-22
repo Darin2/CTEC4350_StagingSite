@@ -24,7 +24,7 @@ h4{
   }
 h5{
   margin-top:10px;
-  font-size:1.1em;
+  font-size: 30px;
   text-align:center;
 }
 
@@ -81,7 +81,7 @@ table.greyGridTable tfoot td {
   width: 200px;
   height: 200px;
 }
-.card-body{
+.headshot-body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -95,3 +95,23 @@ table.greyGridTable tfoot td {
   font-size: 2rem;
 }
 /* End of timesheet */
+
+/* footer start */
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* end of footer */
+
+/* media query start - mobile */
+@media only screen and (max-width: 480px) {
+  h4 {
+    font-size: 2em;
+  }
+  h5 {
+    font-size: 25px;
+  }
+}
+/* end of media query - mobile */
