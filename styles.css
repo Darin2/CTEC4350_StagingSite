@@ -1,121 +1,68 @@
-.centeredText{
+html{
+    background-color:#F3F3F3;
+
+}
+main{
+  background-color:#F3F3F3;
+}
+
+.container{
+  background-color:white;
+  box-shadow: 10px 10px 5px lightgray;
+  border-radius:1%;
+}
+
+
+/*Styling Headings */
+h2{
+  margin-top:3%;
   text-align:center;
 }
-
-.infoParagraph{
-  font-size:1.5em;
-  width:80%;
+h3{
+  margin-top:3%;
+  text-align:left;
 }
-.card-body{
-  width:60%;
-}
-.flexyContainer{
-  display:flex;
-  flex-direction:column;
-}
-.eightywidth{
-  width:80%;
-}
-ul{
-  display:flex;
-  flex-direction:column;
-  margin:auto;
+h3{
+  margin-top:3%;
 }
 
-h4{
-  font-size:2.5em;
-  text-decoration:underline;
-  }
-h5{
-  margin-top:10px;
-  font-size: 30px;
-  text-align:center;
+
+/*Styling nav bar */
+nav li{
+  list-style-type:none;
+}
+a.nav-link{
+  margin-right:80px;
 }
 
-/* project log start */
-table.greyGridTable {
-  border: 2px solid #FFFFFF;
-  width: 100%;
-  text-align: center;
-  border-collapse: collapse;
+.navbar {
+  justify-content:space-between;
 }
-table.greyGridTable td, table.greyGridTable th {
-  border: 1px solid #FFFFFF;
-  padding: 10px 4px;
-}
-table.greyGridTable tbody td {
-  font-size: 13px;
-}
-table.greyGridTable td:nth-child(even) {
-  background: #EBEBEB;
-}
-table.greyGridTable thead {
-  background: #FFFFFF;
-  border-bottom: 4px solid #333333;
-}
-table.greyGridTable thead th {
-  font-size: 15px;
-  font-weight: bold;
-  color: #333333;
-  text-align: center;
-  border-left: 2px solid #333333;
-}
-table.greyGridTable thead th:first-child {
-  border-left: none;
-}
-table.greyGridTable tfoot {
-  font-size: 14px;
-  font-weight: bold;
-  color: #333333;
-  border-top: 4px solid #333333;
-}
-table.greyGridTable tfoot td {
-  font-size: 14px;
-}
-/*end of project log */
 
-/* project assets start */
+/* Styling group member headshots */
+img.headshot{
+  max-width:100px;
+}
+
+/* Styling sitemap image */
 .assetImg{
   width:100%;
 }
-/* end of project assets section */
 
-/* team member section start */
-.headshot{
-  width: 200px;
-  height: 200px;
+/*Styling each section */
+section{
+  background-color:white;
+  width:50%;
+  border-left:1px solid black;
+  padding-left:15px;
 }
-.headshot-body{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  column-gap: 20px;
-}
-/* end of team member section */
+p{width:100%;}
 
-/* Timesheet start */
-.time-link {
-  font-size: 2rem;
+/*Styling footer */
+.footnote{
+  margin-top:10%;
+  text-align:center;
 }
-/* End of timesheet */
-
-/* footer start */
-footer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
+.somethingVisionaryLogo{
+  width:200px;
 }
-/* end of footer */
-
-/* media query start - mobile */
-@media only screen and (max-width: 480px) {
-  h4 {
-    font-size: 2em;
-  }
-  h5 {
-    font-size: 25px;
-  }
-}
-/* end of media query - mobile */

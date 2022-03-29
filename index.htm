@@ -1,366 +1,377 @@
 <!DOCTYPE html>
 <html lang=\"en\">
 <head>
-    <meta charset=\"UTF-8\">
+    <meta charset=\"utf-8\">
     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Latest Javascript for bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <title>The G.U.L.F. Spring 2022 Website Redesign</title>
-
 
 </head>
 
 <body>
 
 <main>
-<div class="jumbotron">
-    <div class="container-fluid">
-      <h1 class="display-1 my-4 text-center">Website Redesign - The G.U.L.F. of Texas</h1>
-      <p class="lead text-center">Welcome to the staging site for the spring 2022 website redesign for The G.U.L.F. of Texas.</p>
-    </div>
-</div>
+<!--Outer Bootstrap Container -->
+<div class="container">
+  <!--Commented out the Bootstrap Navbar, probably unnecessary. If we decide to use it, remember to set the anchors for each nav link -->
+  <!--
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#communicationbrief-section" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Communication Brief
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Project Summary</a></li>
+            <li><a class="dropdown-item" href="#">Audience Analysis</a></li>
+            <li><a class="dropdown-item" href="#">Perception/Tone</a></li>
+            <li><a class="dropdown-item" href="#">Communication Strategy</a></li>
+            <li><a class="dropdown-item" href="#">Communication Goals</a></li>
+            <li><a class="dropdown-item" href="#">Intended Audience</a></li>
+            <li><a class="dropdown-item" href="#">Competitive Positioning</a></li>
+            <li><a class="dropdown-item" href="#">Targeted Messaging</a></li>
+          </ul>
+        </li>
 
-<!-- BEGIN OUTER ACCORDION -->
-<div class="accordion" class="container-fluid" align="center">
-<!---************-->
-<!--PROJECT INFO -->
-<!---************-->
-<div class="card mx-auto">
-  <div class="card-header" id="headingOne">
-    <h5 class="mb-0">
-      <button class="btn btn-primary collapsed eightywidth" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-        Project Info
-      </button>
-    </h5>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Audience Profile
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Participants</a></li>
+            <li><a class="dropdown-item" href="#">Volunteers</a></li>
+            <li><a class="dropdown-item" href="#">Sponsors</a></li>
+            <li><a class="dropdown-item" href="#">Administrators</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Project Assets
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Site Map</a></li>
+            <li><a class="dropdown-item" href="#">Proposed Site</a></li>
+            <li><a class="dropdown-item" href="#">Visual Design Guide</a></li>
+            <li><a class="dropdown-item" href="#">Wireframes</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Team Information
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Time Sheet</a></li>
+            <li><a class="dropdown-item" href="#">Team Members</a></li>
+            <li><a class="dropdown-item" href="#">Contact Info</a></li>
+            <li><a class="dropdown-item" href="#">Project Log</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+-->
+
+  <div class="jumbotron">
+      <div class="container-fluid">
+        <h1 class="display-1 my-4 text-center">Website Redesign - The G.U.L.F. of Texas</h1>
+        <p class="lead text-center">Welcome to the staging site for the spring 2022 website redesign for The G.U.L.F. of Texas.</p>
+      </div>
   </div>
 
-<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 
-      <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#projectLogCollapser" aria-expanded="false" aria-controls="projectLogCollapser">Project Log</button>
-          <div id="projectLogCollapser" class="card-body infoParagraph collapse" align="left">
-              <div class="card">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">3/11 - Submitted proposal to Mr. Bible via RingCentral</li>
-                  <li class="list-group-item">3/17 - Began creating staging site</li>
-                  <li class="list-group-item">3/21 - Staging site version 1 complete</li>
-                  <li class="list-group-item">3/27 - Revised staging site; version 2 complete</li>
-                </ul>
-              </div>
-          </div>
+  <h2 id="communicationBriefH2">Communication Brief</h2>
+  <div class="text-center">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#communicationbrief-section" aria-expanded="true" aria-controls="communicationbrief-section">Show/Hide Communication Brief</button>
+  </div>
+  <section class="collapse mx-5" id="communicationbrief-section">
 
-      <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#commBriefCollapser" aria-expanded="false" aria-controls="commBriefCollapser">Communication Brief</button>
-      <div id="commBriefCollapser" class="card-body infoParagraph collapse" align="left">
-        <h5>Project Summary</h5>
-   			<p>For this project, Something Visionary will be creating a new revamped website for The G.U.L.F. There are various areas that could be enhanced as the website currently stands. The G.U.L.F has expanded its services and goals; however, the website does not accurately communicate those additions to its visitors.</p>
+          <h3>Project Summary</h3>
+     			<p>For this project, Something Visionary will be creating a new revamped website for The G.U.L.F. There are various areas that could be enhanced as the website currently stands. The G.U.L.F has expanded its services and goals; however, the website does not accurately communicate those additions to its visitors.</p>
 
-   			<p>This redesign will address all the current problems by:</p>
-        <ol>
-          <li>Providing a smooth browsing experience with updated information about services to inform visitors and ultimately encourage recruitment</li>
-     			<li>Employing Search Engine Optimization (SEO) marketing strategies to increase organic traffic to the website</li>
-     			<li>Developing an enhanced brand identity to help with branding</li>
-        </ol>
-        <br>
+     			<p>This redesign will address all the current problems by:</p>
 
-   			<p>With everything being increasingly virtualized, a well-designed website is essential. Good web design serves as a guide for your visitors and sets the first impression. The aforementioned improvements will help The G.U.L.F stand out from competitors, build trust with audiences, and improve SEO ranking.</p>
+          <p>
+          <ol>
+            <li>Providing a smooth browsing experience with updated information about services to inform visitors and ultimately encourage recruitment</li>
+       			<li>Employing Search Engine Optimization (SEO) marketing strategies to increase organic traffic to the website</li>
+       			<li>Developing an enhanced brand identity to help with branding</li>
+          </ol>
+          </p>
 
-        <div class="card" style="width: 50%;">
-          <div class="card-header">
-            Audience Analysis - Participants needs/interests:
-          </div>
+
+     			<p>With everything being increasingly virtualized, a well-designed website is essential. Good web design serves as a guide for your visitors and sets the first impression. The aforementioned improvements will help The G.U.L.F stand out from competitors, build trust with audiences, and improve SEO ranking.</p>
+
+          <h3>Audience Analysis</h3>
+
+          <p>Audience Analysis - Participants needs/interests:</p>
+
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Seeking exciting opportunities to learn and grow</li>
             <li class="list-group-item">Find a program that best suits their goals and interests</li>
           </ul>
-        </div>
 
-        <div class="card" style="width: 50%;">
-          <div class="card-header">
-              Audience Analysis - Volunteers needs/interests:
-          </div>
+          <p>Audience Analysis - Volunteers needs/interests:</p>
+
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Determined to help their community</li>
             <li class="list-group-item">Learn about The G.U.L.F</li>
             <li class="list-group-item">Understand how to begin volunteering</li>
           </ul>
-        </div>
 
-        <div class="card" style="width: 50%;">
-          <div class="card-header">
-              Audience Analysis - Sponsors needs/interests:
-          </div>
+          <p>Audience Analysis - Sponsors needs/interests:</p>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Supporting The G.U.L.F's mission</li>
             <li class="list-group-item">Fundraising</li>
             <li class="list-group-item">Be informed about The G.U.L.F's and its programs</li>
           </ul>
-        </div>
 
-    <div class="flexyContainer">
-   			<h5>Guidelines for Perception/Tone of the Website</h5>
-   			<p>Since The G.U.L.F's mission is to inspire and empower their audience, who are mainly young adults, it will be most effective to adopt a friendly and motivating tone of voice throughout the website. Showcasing the positive impact of The G.U.L.F will be a high priority.</p>
-        <br>
-<!--begin revision -->
-   			<h5>Communication Strategy</h5>
-   			<ul>Communication channels:
-     			<li>Website</li>
-     			<li>Social media</li>
-     			<li>Team communication channels</li>
-     			<li>Word of mouth</li>
-   			</ul>
-<!-- end revision -->
-   			<h5>Communication goals</h5>
-        <ul>
-     			<li>Emphasize The G.U.L.F's impact for participants and for the community</li>
-     			<li>Highlight mutually beneficial relationship with partners</li>
-        </ul>
-        <br>
+     			<h3>Guidelines for Perception/Tone of the Website</h3>
 
-   			<h5>Intended Audience</h5>
-   			 The G.U.L.F's intended audience consists of the underserved and uncertain, along with entrepreneur-minded youth and young adults. Potential sponsors and supporters are also part of the intended audience.<br> When underserved, uncertain or entrepreneurship-minded youth interact with The G.U.L.F's website, our goal is to communicate that The G.U.L.F offers a program that will resonate with them and ignite their inspiration and drive.<br> When potential partners interact with The G.U.L.F's website, our goal is to showcase The G.U.L.F's positive impact on the local community and inspire these potential partners to get involved with The G.U.L.F.<br>
-   			<h5>Competitive Positioning</h5>
-   			Although The G.U.L.F is not a for-profit entity, it still faces some small degree of competition for resources such as sponsorships and candidates. It could be beneficial to highlight the things that set The G.U.L.F apart from other similar entities, as long as this is done with a positive, friendly tone. Highlighting the “Diamond League” and the Youth Business Apprenticeship Program could be viable options in this area. <br>
-   			<h5>Targeted Messaging</h5>
-   			Each of the intended audiences will benefit from targeted messaging that is intended specifically for them. Separate email lists can be created to easily target each group. </p>
-        </div>
+     			<p>Since The G.U.L.F's mission is to inspire and empower their audience, who are mainly young adults, it will be most effective to adopt a friendly and motivating tone of voice throughout the website. Showcasing the positive impact of The G.U.L.F will be a high priority.</p>
+
+
+     			<h3>Communication Strategy</h3>
+     			<ul>Communication channels:
+       			<li>Website</li>
+       			<li>Social media</li>
+       			<li>Team communication channels</li>
+       			<li>Word of mouth</li>
+     			</ul>
+
+     			<h3>Communication Goals</h3>
+          <ul>
+       			<li>Emphasize The G.U.L.F's impact for participants and for the community</li>
+       			<li>Highlight mutually beneficial relationship with partners</li>
+          </ul>
+
+
+     			<h3>Intended Audience</h3>
+          The G.U.L.F's intended audience consists of the underserved and uncertain, along with entrepreneur-minded youth and young adults. Potential sponsors and supporters are also part of the intended audience. When underserved, uncertain or entrepreneurship-minded youth interact with The G.U.L.F's website, our goal is to communicate that The G.U.L.F offers a program that will resonate with them and ignite their inspiration and drive. When potential partners interact with The G.U.L.F's website, our goal is to showcase The G.U.L.F's positive impact on the local community and inspire these potential partners to get involved with The G.U.L.F.
+
+     			<h3>Competitive Positioning</h3>
+     			Although The G.U.L.F is not a for-profit entity, it still faces some small degree of competition for resources such as sponsorships and candidates. It could be beneficial to highlight the things that set The G.U.L.F apart from other similar entities, as long as this is done with a positive, friendly tone. Highlighting the “Diamond League” and the Youth Business Apprenticeship Program could be viable options in this area.
+
+     			<h3>Targeted Messaging</h3>
+     			Each of the intended audiences will benefit from targeted messaging that is intended specifically for them. Separate email lists can be created to easily target each group.
+
+  </section>
+
+  <h2 id="audienceProfileH2">Audience Profile</h2>
+  <div class="text-center">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#audienceprofile-section" aria-expanded="true" aria-controls="audienceprofile-section">Show/Hide Audience Profile</button>
   </div>
+  <section class="collapse mx-5" id="audienceprofile-section">
+
+      <h3>Audience Group: Participants</h3>
+
+
+  	  Participants are likely under the age of 18, attending high school or junior high school in the Dallas-Fort Worth metroplex. Participants may be of any gender. Participants will come from varying religious, socioeconomic and ethnic backgrounds.
+
+  		<h4>Story</h4>
+  		<p>Our participant hears about The G.U.L.F through a family friend or a classmate, or via social media. The participant searches for information about The G.U.L.F via social media and Google. They visit the website and want to learn more about what opportunities The G.U.L.F has in store for them, and how to get involved.They may show The G.U.L.F's site to their parents or guardians.</p>
+
+  		<h4>Interests, needs and wants</h4>
+  		<p>The participant will be interested in learning and growing as a young adult. They may be curious about leadership or how entrepreneurship works. They may be seeking like-minded young entrepreneurs, a role model, or an opportunity to learn marketable skills.</p>
+
+  		<h4>Technical Capability</h4>
+  		<p>The technical capability of participants may vary widely, from not very tech-savvy to extremely tech-savvy. On average, a participant will likely have higher technical capability than other user groups. Participants may not need as much instruction or guidance for technical tasks. Clear, succinct instructions and guides around technical topics will still be helpful.</p>
+
+  		<h4>Typical Tasks This User Will Perform On The Site</h4>
+  	  <ul>A participant may use The G.U.L.F's website for tasks such as:
+  		<li>Reading about past and future events</li>
+  		<li>Registering for an event</li>
+  		<li>Researching The G.U.L.F's mission and benefits of joining</li>
+  		<li>Seeking The G.U.L.F's contact information</li></ul>
+
+
+      <h4>Audience Group: Volunteers</h4>
+
+
+      <p>Volunteers are likely over the age of 18, attending high school or junior high school in the Dallas-Fort Worth metroplex. volunteers may be of any gender. Volunteers will come from varying religious, socioeconomic and ethnic backgrounds.</p>
+
+      <h4>Story</h4>
+      <p>Our volunteer hears about The G.U.L.F through a family friend or a classmate, or via social media. The volunteer searches for information about The G.U.L.F via social media and Google. They visit the website and want to learn more about what volunteer opportunities The G.U.L.F has, what their mission is about, and how to get involved. Once they are interested, they will need clear next steps regarding how to contribute as a volunteer.</p>
+
+      <h4>Interests, needs and wants</h4>
+      <p>The volunteer will be interested in contributing to The G.U.L.F's mission and helping their community. They may be seeking like-minded community-oriented people, the ability to contribute positively to the world, or an opportunity to grow as a person.</p>
+
+      <h4>Technical Capability</h4>
+      <p>The technical capability of volunteers may vary widely, from not very tech-savvy to extremely tech-savvy. Volunteers could need a considerable amount of instruction or guidance for technical tasks. Clear, succinct instructions and guides around technical topics will still be helpful.</p>
+
+      <h4>Typical Tasks This User Will Perform On The Site</h4>
+      <ul>A volunteer may use The G.U.L.F's website for tasks such as:
+      <li>Seeking volunteering information</li>
+      <li>Viewing The G.U.L.F.'s sponsors</li>
+      <li>Reading about past and future events</li>
+      <li>Registering for an event</li>
+      <li>Researching The G.U.L.F's mission</li>
+      <li>Seeking The G.U.L.F's contact information</li></ul>
 
 
 
-  <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#audienceProfileCollapser" aria-expanded="false" aria-controls="audienceProfileCollapser">Audience Profile</button>
-  <div id="audienceProfileCollapser" class="card-body infoParagraph collapse" align="left">
-    <h5>Audience Group: Participants</h5><br>
+  		<h4>Audience Group: Sponsors</h4>
+
+  		<p>Sponsors are likely to be over the age of 25, working full-time in various industries in the Dallas-Fort Worth metroplex. Sponsors may be any gender. Sponsors will come from varying religious, socioeconomic and ethnic backgrounds.</p>
+
+  		<h5>Story</h5>
+  		<p>Our sponsor hears about The G.U.L.F from a coworker or family friend and opens up the website during a work break. He or she is interested in getting more involved with the local community and thinks The G.U.L.F could be a good option. The sponsor may be capable of sponsoring The G.U.L.F in several different ways, including volunteer support or monetary support. He or she will want to get in touch with The G.U.L.F to learn more and discuss sponsorship options.</p>
+
+  		<h5>Interests, Needs and Wants</h5>
+  		<p>He or she will want to get in touch with The G.U.L.F to learn more and discuss sponsorship options. The sponsor will gain positive brand equity and PR from sponsoring The G.U.L.F, along with the chance to make a positive impact on the local community. The sponsor will likely wish to be recognized as a sponsor on The G.U.L.F's  website.</p>
+
+  	  <h5>Technical Capability</h5>
+  		<p>The technical capability of sponsors may vary widely, from not very tech-savvy to extremely tech-savvy. Because of this, sponsors should not be assumed to have a high level of technical capability. Clear, succinct instructions and guides around technical topics will be necessary.</p>
+
+  	 	<h5>Typical Tasks This User Will Perform On The Site</h5>
+  	  <ul>A sponsor may use The G.U.L.F's website for tasks such as:
+  		<li>Reading about past and future events</li>
+  		<li>Researching The G.U.L.F's mission, testimonials and community impact</li>
+  		<li>Seeking The G.U.L.F's contact information</li></ul>
 
 
-	  Participants are likely under the age of 18, attending high school or junior high school in the Dallas-Fort Worth metroplex. Participants may be of any gender. Participants will come from varying religious, socioeconomic and ethnic backgrounds.<br>
+  		<h4>Audience Group: Administrators</h4>
 
-		<h5>Story</h5><br>
-		Our participant hears about The G.U.L.F through a family friend or a classmate, or via social media. The participant searches for information about The G.U.L.F via social media and Google. They visit the website and want to learn more about what opportunities The G.U.L.F has in store for them, and how to get involved.They may show The G.U.L.F's site to their parents or guardians.<br>
+  		Administrators are likely to be over the age of 18, participating with The G.U.L.F. in either part-time or full-time capacities. Administrators may be any gender. Administrators may come from varying religious, socioeconomic and ethnic backgrounds.
 
-		<h5>Interests, needs and wants</h5><br>
-		The participant will be interested in learning and growing as a young adult. They may be curious about leadership or how entrepreneurship works. They may be seeking like-minded young entrepreneurs, a role model, or an opportunity to learn marketable skills.<br>
+  		<h5>Story</h5>
+  		Our administrator will log into the site to keep it updated from time to time. There may be an upcoming event that needs to be mentioned on the site, or a new program that The G.U.L.F. wants to promote.
 
-		<h5>Technical Capability</h5><br>
-		The technical capability of participants may vary widely, from not very tech-savvy to extremely tech-savvy. On average, a participant will likely have higher technical capability than other user groups. Participants may not need as much instruction or guidance for technical tasks. Clear, succinct instructions and guides around technical topics will still be helpful.<br>
+  		<h5>Interests, Needs and Wants</h5>
+  		The administrator will be interested in keeping the website up to date and looking polished. They'll want to do so in an easy, accessible, hassle-free fashion.
 
-		<h5>Typical Tasks This User Will Perform On The Site</h5><br>
-	  <ul>A participant may use The G.U.L.F's website for tasks such as:
-		<li>Reading about past and future events</li>
-		<li>Registering for an event</li>
-		<li>Researching The G.U.L.F's mission and benefits of joining</li>
-		<li>Seeking The G.U.L.F's contact information</li></ul>
-		<br>
+  		<h5>Technical Capability</h5>
+  		The technical capability of administrators may vary widely, from not very tech-savvy to extremely tech-savvy. Because of this, administrators should not be assumed to have a high level of technical capability. Clear, succinct instructions and guides around technical topics will be necessary.
 
-    <h5>Audience Group: Volunteers</h5><br>
+  		<h5>Typical Tasks This User Will Perform On The Site</h5>
+  	  <ul>An administrator may use The G.U.L.F's website for tasks such as:
+  		<li>Posting, editing or deleting past and current events</li>
+  		<li>Monitoring website traffic</li>
+  		<li>Monitoring email lists</li>
+  		<li>Updating website content</li>
+    	<li>Post, edit or delete a program from the list of programs</li>
+  	  </ul>
+  	  </p>
 
+  </section>
 
-    Volunteers are likely over the age of 18, attending high school or junior high school in the Dallas-Fort Worth metroplex. volunteers may be of any gender. Volunteers will come from varying religious, socioeconomic and ethnic backgrounds.<br>
-
-    <h5>Story</h5><br>
-    Our volunteer hears about The G.U.L.F through a family friend or a classmate, or via social media. The volunteer searches for information about The G.U.L.F via social media and Google. They visit the website and want to learn more about what volunteer opportunities The G.U.L.F has, what their mission is about, and how to get involved. Once they are interested, they will need clear next steps regarding how to contribute as a volunteer.<br>
-
-    <h5>Interests, needs and wants</h5><br>
-    The volunteer will be interested in contributing to The G.U.L.F's mission and helping their community. They may be seeking like-minded community-oriented people, the ability to contribute positively to the world, or an opportunity to grow as a person.<br>
-
-    <h5>Technical Capability</h5><br>
-    The technical capability of volunteers may vary widely, from not very tech-savvy to extremely tech-savvy. Volunteers could need a considerable amount of instruction or guidance for technical tasks. Clear, succinct instructions and guides around technical topics will still be helpful.<br>
-
-    <h5>Typical Tasks This User Will Perform On The Site</h5><br>
-    <ul>A volunteer may use The G.U.L.F's website for tasks such as:
-    <li>Seeking volunteering information</li>
-    <li>Viewing The G.U.L.F.'s sponsors</li>
-    <li>Reading about past and future events</li>
-    <li>Registering for an event</li>
-    <li>Researching The G.U.L.F's mission</li>
-    <li>Seeking The G.U.L.F's contact information</li></ul>
-    <br>
-
-
-		<h5>Audience Group: Sponsors</h5><br>
-
-		Sponsors are likely to be over the age of 25, working full-time in various industries in the Dallas-Fort Worth metroplex. Sponsors may be any gender. Sponsors will come from varying religious, socioeconomic and ethnic backgrounds.<br>
-
-		<h5>Story</h5><br>
-		Our sponsor hears about The G.U.L.F from a coworker or family friend and opens up the website during a work break. He or she is interested in getting more involved with the local community and thinks The G.U.L.F could be a good option. The sponsor may be capable of sponsoring The G.U.L.F in several different ways, including volunteer support or monetary support. He or she will want to get in touch with The G.U.L.F to learn more and discuss sponsorship options.<br>
-
-		<h5>Interests, Needs and Wants</h5><br>
-		He or she will want to get in touch with The G.U.L.F to learn more and discuss sponsorship options. The sponsor will gain positive brand equity and PR from sponsoring The G.U.L.F, along with the chance to make a positive impact on the local community. The sponsor will likely wish to be recognized as a sponsor on The G.U.L.F's  website.<br>
-
-	  	<h5>Technical Capability</h5><br>
-		The technical capability of sponsors may vary widely, from not very tech-savvy to extremely tech-savvy. Because of this, sponsors should not be assumed to have a high level of technical capability. Clear, succinct instructions and guides around technical topics will be necessary.<br>
-
-	 	<h5>Typical Tasks This User Will Perform On The Site</h5><br>
-	  <ul>A sponsor may use The G.U.L.F's website for tasks such as:
-		<li>Reading about past and future events</li>
-		<li>Researching The G.U.L.F's mission, testimonials and community impact</li>
-		<li>Seeking The G.U.L.F's contact information</li></ul>
-		<br>
-
-		<h5>Audience Group: Administrators</h5><br>
-
-		Administrators are likely to be over the age of 18, participating with The G.U.L.F. in either part-time or full-time capacities. Administrators may be any gender. Administrators may come from varying religious, socioeconomic and ethnic backgrounds.<br>
-
-		<h5>Story</h5><br>
-		Our administrator will log into the site to keep it updated from time to time. There may be an upcoming event that needs to be mentioned on the site, or a new program that The G.U.L.F. wants to promote.<br>
-
-		<h5>Interests, Needs and Wants</h5><br>
-		The administrator will be interested in keeping the website up to date and looking polished. They'll want to do so in an easy, accessible, hassle-free fashion.<br>
-
-		<h5>Technical Capability</h5><br>
-		The technical capability of administrators may vary widely, from not very tech-savvy to extremely tech-savvy. Because of this, administrators should not be assumed to have a high level of technical capability. Clear, succinct instructions and guides around technical topics will be necessary.<br>
-
-		<h5>Typical Tasks This User Will Perform On The Site</h5><br>
-	  <ul>An administrator may use The G.U.L.F's website for tasks such as:
-		<li>Posting, editing or deleting past and current events</li>
-		<li>Monitoring website traffic</li>
-		<li>Monitoring email lists</li>
-		<li>Updating website content</li>
-	  	<li>Post, edit or delete a program from the list of programs</li>
-	  </ul>
-		<br>
-	  </p>
+  <h2 id="projectAssetsH2">Project Assets</h2>
+  <div class="text-center">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#projectassets-section" aria-expanded="true" aria-controls="projectassets-section">Show/Hide Project Assets</button>
   </div>
-</div>
-</div>
-<!---************-->
-<!--PROJECT ASSETS->
-<! ************---->
-<div class="card mx-auto">
-  <!-- Project Assets button -->
-  <div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-      <button class="btn btn-primary collapsed eightywidth" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Project Assets
-      </button>
-    </h5>
+  <section class="collapse hide mx-5" id="projectassets-section">
+
+      <h3>Site Map</h3>
+
+      <img class="assetImg" src="img/GulfSitemap_revised3-28-05_resized.png">
+
+      <h4>Proposed Site Structure</h4>
+
+        <p>The proposed G.U.L.F site contains a mostly flat structure of eight webpages, connected via links in the navigation bar. A secure link for administrator login will be provided at the bottom of the page. The pages will be: home, about, programs, get involved, challenges, admin control panel, and contact.</p>
+
+        <p>The bottom of each page used by the public will contain a section featuring The G.U.L.F's contact information along with a RingCentral link. Each page will have a highly visible donate button placed at the top of the page. All pages will be integrated with RingCentral to allow its use while on the site (see wireframes section for examples.)</p>
+
+
+       <h4>Home</h4>
+
+       <p>The Home page will introduce users to The G.U.L.F and offer multiple call-to-action buttons encouraging users to get involved. The home page will feature sections that encourage the user to get involved, show testimonials, showcase The G.U.L.F's impact using statistics, and offer a Google Maps view of The G.U.L.F's location.</p>
+
+       <h4>Admin</h4>
+
+       <p>The Admin page will let authenticated administrators access the admin control panel, which will contain a table featuring the contact information captured from the registration form and contact form.</p>
+
+       <h4>About</h4>
+
+       <p>The About page will feature several sections explaining The G.U.L.F's mission, its impact on the community, and its story. Each section will feature a “call to action” button encouraging the user to get involved and linking to the Get Involved page.</p>
+
+       <h4>Get Involved</h4>
+
+       <p>The Get Involved page will attract participants and volunteers by explaining how to get involved with The G.U.L.F and directing users to the Contact page.</p>
+
+       <h4>Challenge</h4>
+
+       <p>The Challenge page will feature a monthly challenge for young entrepreneurs. This page will update automatically once per month, rotating through 12 challenges designed to stimulate the creativity and entrepreneurial capabilities of young people. This page was an idea offered by one of our teammates and is entirely optional.</p>
+
+       <h4>Contact</h4>
+
+       <p>The Contact page will feature contact information for The G.U.L.F staff, a form for questions or comments, and a sign up form for any current or future newsletters. This page will capture the user's contact information in a database for later retrieval by the administrators.</p>
+
+
+
+    <h3>Visual Design Guide</h3>
+    <iframe src="https://drive.google.com/file/d/1J8M-_AC1wYnajZyqFNFGtXsdNZe8Lw-P/preview"
+    width="100%"
+    height="800px"
+    allow="autoplay">
+    </iframe>
+
+    <h3>Wireframes</h3>
+
+    <p>The wireframes shown in this document are designed to offer a low-fidelity mockup of how the website will be organized, and where each element will be located, similar to a blueprint. The website will respond differently based on the type of device being used to access it, so we have included both mobile and desktop versions for demonstration purposes.</p>
+
+  </section>
+
+  <h2 id="teamInformationH2">Team Information</h2>
+  <div class="text-center">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#teaminformation-section" aria-expanded="true" aria-controls="projectassets-section">Show/Hide Team Information</button>
   </div>
-  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-    <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#sitemapCollapser" aria-expanded="false" aria-controls="sitemapCollapser">Site Map</button>
-    <div id="sitemapCollapser" class="card-body infoParagraph collapse" align="left">
-		  <img class="assetImg" src="img/GulfSitemap_revised3-28-05.png">
-		  <br><h5>Proposed Site Structure</h5>
-      <br>
-		  <p>The proposed G.U.L.F site contains a mostly flat structure of eight webpages, connected via links in the navigation bar. A secure link for administrator login will be provided at the bottom of the page. The pages will be: home, about, programs, get involved, challenges, admin control panel, and contact.</p>
+  <section class="collapse mx-5" id="teaminformation-section">
 
-      <p>The bottom of each page used by the public will contain a section featuring The G.U.L.F's contact information along with a RingCentral link. Each page will have a highly visible donate button placed at the top of the page. All pages will be integrated with RingCentral to allow its use while on the site (see wireframes section for examples.)</p> <br>
+    <h3>Time Sheet</h3>
+    <a href="https://docs.google.com/spreadsheets/d/1k2AQCDn37zZv4DpjygZ7CgRnWbaD2y0I4yXyuF_-1UY/edit?usp=sharing">Link to Timesheet</a>
 
-     <br>
-     <h5>Home</h5>
-     <br>
-     <p>The Home page will introduce users to The G.U.L.F and offer multiple call-to-action buttons encouraging users to get involved. The home page will feature sections that encourage the user to get involved, show testimonials, showcase The G.U.L.F's impact using statistics, and offer a Google Maps view of The G.U.L.F's location.</p>
-     <br>
-     <h5>Admin</h5>
-     <br>
-     <p>The Admin page will let authenticated administrators access the admin control panel, which will contain a table featuring the contact information captured from the registration form and contact form.</p>
-     <br>
-     <h5>About</h5>
-     <br>
-     <p>The About page will feature several sections explaining The G.U.L.F's mission, its impact on the community, and its story. Each section will feature a “call to action” button encouraging the user to get involved and linking to the Get Involved page.</p>
-     <br>
-     <h5>Get Involved</h5>
-     <br>
-     <p>The Get Involved page will attract participants and volunteers by explaining how to get involved with The G.U.L.F and directing users to the Contact page.</p>
-     <br>
-     <h5>Challenge</h5>
-     <br>
-     <p>The Challenge page will feature a monthly challenge for young entrepreneurs. This page will update automatically once per month, rotating through 12 challenges designed to stimulate the creativity and entrepreneurial capabilities of young people. This page was an idea offered by one of our teammates and is entirely optional.</p>
-     <br>
-     <h5>Contact</h5>
-     <br>
-     <p>The Contact page will feature contact information for The G.U.L.F staff, a form for questions or comments, and a sign up form for any current or future newsletters. This page will capture the user's contact information in a database for later retrieval by the administrators.</p>
-     <br>
-
-
-
-		  <br><h5>Visual Design Guide</h5>
-
-
-      <iframe src="https://drive.google.com/file/d/1J8M-_AC1wYnajZyqFNFGtXsdNZe8Lw-P/preview"
-      width="100%"
-      height="800px"
-      allow="autoplay">
-      </iframe>
-      <br>
+    <h3>Team Member List</h3>
+    <div class="card-body headshot-body infoParagraph" align="left">
+    <img class="headshot" src="img/paris_headshot.png">
+    <img class="headshot" src="img/brandon_headshot.png">
+    <img class="headshot" src="img/vanessa_headshot.png">
+    <img class="headshot" src="img/nyric_headshot.png">
+    <img class="headshot" src="img/darin_headshot.png">
+    </div>
+    <h3>Contact Info</h3>
+    <div class="card-body infoParagraph" align="left">
+    <p>
+    <ul>
+    <li>Paris King: pxk6197@mavs.uta.edu</li>
+    <li>Brandon Le: brandon.le2@mavs.uta.edu</li>
+    <li>Vanessa Torquato: vmt8625@mavs.uta.edu</li>
+    <li>Nyric Evans: nyric.evans@mavs.uta.edu</li>
+    <li>Darin Hardin: darin.hardin@mavs.uta.edu</li>
+    </ul>
+    </p>
+    </div>
+    <h3>Project Log</h3>
+    <div class="card">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">3/11 - Submitted proposal to Mr. Bible via RingCentral</li>
+      <li class="list-group-item">3/17 - Began creating staging site</li>
+      <li class="list-group-item">3/21 - Staging site version 1 complete</li>
+      <li class="list-group-item">3/27 - Revised staging site; version 2 complete</li>
+    </ul>
     </div>
 
+  </section>
 
+  <footer>
+    <p class="footnote">Website by Something Visionary - CTEC 4350 @ UT Arlington - For class use only</p>
+  </footer>
+  </main>
 
-
-    <button class="btn btn-primary collapsed" data-toggle="collapse" data-target="#wireframeCollapser" aria-expanded="false" aria-controls="wireframeCollapser">Wireframes</button>
-    <div id="wireframeCollapser" class="card-body infoParagraph collapse" align="left">
-      <p>
-      <img class="assetImg" src="img/home.png"/>
-      <img class="assetImg" src="img/about.png"/>
-      <img class="assetImg" src="img/challenge.png"/>
-      <img class="assetImg" src="img/signin.png"/>
-      <img class="assetImg" src="img/admincontrol.png"/>
-      <img class="assetImg" src="img/getinvolved.png"/>
-      <img class="assetImg" src="img/programs.png"/>
-      <img class="assetImg" src="img/contact.png"/>
-	    <br>
-
-	  The wireframes shown in this document are designed to offer a low-fidelity mockup of how the website will be organized, and where each element will be located, similar to a blueprint. The website will respond differently based on the type of device being used to access it, so we have included both mobile and desktop versions for demonstration purposes.
-
-	  </p>
-    </div>
-  </div>
-</div>
-<!---************-->
-<!-- TEAM MEMBERS-->
-<!---************-->
-<div class="card mx-auto">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-primary collapsed eightywidth" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Team Members
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <h4>Time Sheet</h4>
-      <div class="card-body infoParagraph" align="left">
-        <h5><a href="https://docs.google.com/spreadsheets/d/1k2AQCDn37zZv4DpjygZ7CgRnWbaD2y0I4yXyuF_-1UY/edit?usp=sharing">Link to Timesheet</a></h5>
-        <!-- not using this atm
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2Qk9qdSti_dCu2heF6mAjNaNz13YQH1m_pz6NorkYZP_0EgarEYwz1WgUr-RkVb-fGyAnV_yovR5d/pubhtml?gid=781800759&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-      -->
-      </div>
-      <h4>Team Member List</h4>
-      <div class="card-body headshot-body infoParagraph" align="left">
-        <img class="headshot" src="img/paris_headshot.png">
-        <img class="headshot" src="img/brandon_headshot.png">
-        <img class="headshot" src="img/vanessa_headshot.png">
-        <img class="headshot" src="img/nyric_headshot.png">
-        <img class="headshot" src="img/darin_headshot.png">
-      </div>
-      <hr>
-      <h4>Contact Info</h4>
-      <div class="card-body infoParagraph" align="left">
-      <p>
-        <ul>
-        <li>Paris King: pxk6197@mavs.uta.edu</li>
-        <li>Brandon Le: brandon.le2@mavs.uta.edu</li>
-        <li>Vanessa Torquato: vmt8625@mavs.uta.edu</li>
-        <li>Nyric Evans: nyric.evans@mavs.uta.edu</li>
-        <li>Darin Hardin: darin.hardin@mavs.uta.edu</li>
-        </ul>
-      </p>
-      </div>
-    </div>
-  </div>
 
 </div>
-
-<!-- END OUTER ACCORDION -->
-
-</main>
-
-    <footer>
-	    <p class="centeredText">Website by Something Visionary - CTEC 4350 @ UT Arlington - For class use only</p>
-    </footer>
+<!-- end bootstrap container -->
 </body>
 </html>
