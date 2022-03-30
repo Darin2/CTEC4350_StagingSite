@@ -17,13 +17,13 @@ main{
 h2{
   margin-top:3%;
   text-align:center;
+  font-size:3rem !important;
 }
+
 h3{
   margin-top:3%;
   text-align:left;
-}
-h3{
-  margin-top:3%;
+  text-decoration: underline;
 }
 
 
@@ -57,6 +57,11 @@ section{
   padding-left:15px;
 }
 p{width:100%;}
+
+/*Styling group members contact info section */
+.infoParagraph{
+  width:100%;
+}
 
 /*Styling footer */
 .footnote{
